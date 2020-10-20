@@ -1,9 +1,10 @@
 from django.db import models
-from  django.contrib.auth import get_user_model
-from  django.contrib.contenttypes.models import ContentType
-from  django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.auth import get_user_model
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey
 from PIL import Image
 # Create your models here.
+# test
 
 User = get_user_model()
 
